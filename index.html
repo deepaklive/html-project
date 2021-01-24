@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <base href="./">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>WebPedia - Home</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap"/>
+
+    <style>
+      body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+      }
+  
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border-radius: 5px;
+      }
+  
+      h1 {text-align: center;}
+      h3 {text-align: center;}
+  
+    </style>
+  
   </head>
 
-  <style>
-    body{
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    }
-
-    img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-      border-radius: 5px;
-    }
-
-    h1 {text-align: center;}
-    h3 {text-align: center;}
-
-  </style>
 
   <body>
     <div class="container">
@@ -46,7 +52,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="home page.html">Home<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About Us</a>
@@ -96,16 +102,16 @@
           <ol type="1">
             <li><a href="sun.html">The Sun</a><br/></li>
             <li><a href="planets.html">The Planets</a><br/></li>
-            <li><a href="hot planet.html">The Hot Planet</a><br/></li>
-            <li><a href="dwarf planets.html">Dwarf Planets</a><br/></li>
+            <li><a href="hot-planet.html">The Hot Planet</a><br/></li>
+            <li><a href="dwarf-planets.html">Dwarf Planets</a><br/></li>
             <li><a href="moon.html">The Moon</a><br/></li>
-            <li><a href="comets & astros.html">Comets & Asteroids</a></li>
+            <li><a href="comets-astros.html">Comets & Asteroids</a></li>
           </ol><hr>
         </div>
         <div class="card" style="width: 18rem">
           <img
             class="card-img-top"
-            src="images/earth img.jpg"
+            src="images/earth.jpg"
             alt="The Earth"
             height="300px"
           />
