@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>WebPedia - Home</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap"/>
+  </head>
+
+  <style>
+    body{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    h1 {text-align: center;}
+    h3 {text-align: center;}
+
+  </style>
+
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <a style="color: aliceblue" class="navbar-brand">WebPedia</a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="home page.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdownId"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Categories</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Universe</a>
+                <a class="dropdown-item" href="#">Planet Earth</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <a class="btn btn-success" style="color: aliceblue" type="submit"
+              ><i class="fa fa-search"></i
+            ></a>
+          </form>
+        </div>
+      </nav>
+      <br />
+      <h1 class="display-3"><strong>Available Categories</strong></h1>
+      <br />
+      <div class="card-group">
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="images/universe img.jpg"
+            alt="The Universe"
+            height="300px"
+          />
+          <div class="card-body">
+            <h3 class="card-title"><strong>The Universe</strong></h3>
+          </div>
+          <ol type="1">
+            <li><a href="sun.html">The Sun</a><br/></li>
+            <li><a href="planets.html">The Planets</a><br/></li>
+            <li><a href="hot planet.html">The Hot Planet</a><br/></li>
+            <li><a href="dwarf planets.html">Dwarf Planets</a><br/></li>
+            <li><a href="moon.html">The Moon</a><br/></li>
+            <li><a href="comets & astros.html">Comets & Asteroids</a></li>
+          </ol><hr>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="images/earth img.jpg"
+            alt="The Earth"
+            height="300px"
+          />
+          <div class="card-body">
+            <h3 class="card-title"><strong>Planet Earth</strong></h3>
+          </div>
+          <ol type="1">
+            <li><a href="earth atmos.html">Earth's Atmosphere</a><br/></li>
+            <li><a href="mv caves.html">Mountains, Valleys & Caves</a><br/></li>
+            <li><a href="oceans.html">Oceans</a><br/></li>
+            <li><a href="volcanoes.html">Volcanoes</a><br/></li>
+            <li><a href="earthq and tsunamis.html">Earthquakes & Tsunamis</a><br/></li>
+            <li><a href="hurricanes and tornados.html">Hurricanes & Tornadoes</a></li>
+          </ol><hr>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="images/life on earth img.jpg"
+            alt="Life on Earth"
+            height="300px"
+          />
+          <div class="card-body">
+            <h3 class="card-title"><strong>The Living Planet</strong></h3>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="card-group">
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="images/history img.jpg"
+            alt="World History Image"
+            height="250px"
+          />
+          <div class="card-body">
+            <h3 class="card-title"><strong>World History</strong></h3>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="images/5 img.jpg"
+            alt="Continents, Countries & People"
+            height="250px"
+          />
+          <div class="card-body">
+            <h3 class="card-title">
+              <strong>Continents, Countries & People</strong>
+            </h3>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="images/arts & cul.jpg"
+            alt="Art And Culture"
+            height="250px"
+          />
+          <div class="card-body">
+            <h3 class="card-title"><strong>Art & Culture</strong></h3>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="card-group">
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="images/sc and tech.jpg"
+            alt="Science And Technology"
+          />
+          <div class="card-body">
+            <h3 class="card-title"><strong>Science And Technology</strong></h3>
+          </div>
+        </div>
+      </div>
+      <br />
+      <h5><strong>Extras:-</strong></h5>
+
+      Universe -
+      <a class="link" target="blank" href="https://en.m.wikipedia.org/wiki/Universe">https://en.m.wikipedia.org/wiki/Universe</a>
+      <br/>
+
+      Planet Earth -
+      <a class="link" target="blank" href="https://en.m.wikipedia.org/wiki/Earth">https://en.m.wikipedia.org/wiki/Earth</a>
+      <br/>
+
+      The Living Planet -
+      <a class="link" target="blank" href="https://en.m.wikipedia.org/wiki/Life">https://en.m.wikipedia.org/wiki/Life</a
+      ><br/>
+
+      World History -
+      <a class="link" target="blank" href="https://en.m.wikipedia.org/wiki/History">https://en.m.wikipedia.org/wiki/History</a>
+      <br/>
+
+      Continets, Countries & People -
+      <a class="link" target="blank" href="https://en.m.wikipedia.org/wiki/Continent">https://en.m.wikipedia.org/wiki/Continent</a>
+      <br/>
+
+      Art & Culture -
+      <a class="link" target="blank" href="https://en.m.wikipedia.org/wiki/Arts_and_Crafts_movement">https://en.m.wikipedia.org/wiki/Arts_and_Crafts_movement</a>
+      <br/>
+
+      Science & Technology -
+      <a class="link" target="blank" href="https://en.m.wikipedia.org/wiki/Science_fiction">https://en.m.wikipedia.org/wiki/Science_fiction</a>
+      <br/>
+    </nav>
+    </div>
+    <hr color="#000000" />
+  </body>
+</html>
