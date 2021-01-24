@@ -12,6 +12,17 @@
 </head>
 
 <style>
+    .active, .accordion:hover {
+        background-color: #cccccc;
+    }
+
+    .panel {
+        padding: 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+    }
+    
     body{
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     }
@@ -103,6 +114,33 @@
                         </p>
                     </div>
                 </div>
+
+
+                <div>
+                <button class="accordion">The Barringer Impact</button>
+                <div class="panel">
+                <img src="images/barringer crater.jpg" alt="Mariner 10">
+                </div>
+                <script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+                    
+                    for (i = 0; i < acc.length; i++) {
+                      acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.display === "block") {
+                          panel.style.display = "none";
+                        } else {
+                          panel.style.display = "block";
+                        }
+                      });
+                    }
+                </script>
+                </div>
+
+
+
             </div>
         </div>
     </div>
